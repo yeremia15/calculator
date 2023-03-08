@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+  margin: 100px auto;
+  width: 340px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.display {
+  height: 60px;
+  text-align: right;
+  padding: 10px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.display input[type="text"] {
+  width: 100%;
+  height: 100%;
+  font-size: 28px;
+  border: none;
+  background-color: #fff;
+  text-align: right;
+}
+
+.memory {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e3e3e3;
+  border-bottom: 1px solid #ccc;
+}
+
+.memory button {
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  color: #555;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.memory button:hover {
+  background-color: #f5f5f5;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.keys button {
+  background-color: #fff;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.keys button:hover {
+  background-color: #f5f5f5;
+}
+
+.keys button:active {
+  background-color: #e3e3e3;
+}
+
+.history {
+  padding: 10px;
+  background-color: #e3e3e3;
+}
+
+.history h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.history ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.history li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
